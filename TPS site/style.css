@@ -1,0 +1,230 @@
+#nameLogo {
+	font-family: 'Staatliches', cursive;
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: #29264a;
+}
+.nameHead {
+	background-color: #fff;
+	padding: 3px;
+	text-align: center;	
+}
+body {
+	margin: 0 auto;
+	background-image: url(img/background1.jpg);
+	background-position: auto;
+	background-attachment: fixed;
+}
+.listHead {
+	background-color: #f5f5f5;
+	text-align: center;
+}
+#listMenu {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#listMenu a {
+	text-decoration: none;
+	color: #29264a;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+#listMenu li {
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
+	float: left;
+	margin: 10px;
+}
+.welcomeText {
+	background-color: #fff;
+	text-align: center;
+	margin-top: 600px;
+	padding: 20px;
+}
+#welcName {
+	font-family: 'Staatliches', cursive;
+	font-size: 86px;
+	color: #3864f5;
+	margin-bottom: 20px;
+}
+#welcSub {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #29264a;
+	margin-top: -1px;
+}
+#welcDesc {
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #29264a;
+	margin-bottom: 70px;
+}
+#playButton {
+	font-family: 'Staatliches', cursive;
+	font-size: 48px;
+	background-color: #3864f5;
+	color: #fff;
+	border-radius: 48px;
+	padding: 10px 25px;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+#playButton:hover {
+	background-color: #6286fc;
+}
+.lastNews {
+	background-color: #fff;
+	text-align: center;
+	padding: 50px;
+}
+#newsName {
+	font-family: 'Staatliches', cursive;
+	font-size: 86px;
+	color: #3864f5;
+	margin-bottom: 20px;
+}
+#newsSub {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #29264a;
+	margin-top: -1px;
+}
+.newOne {
+	background-color: #3864f5;
+	padding: 25px;
+	max-width: 100%;
+	color: #fff;
+	font-family: sans-serif;
+	margin: 10px;
+	transition-property: scale;
+	transition-duration: 0.5s;	
+}
+#mainNewName {
+	font-size: 28px;
+	font-weight: bold;
+}
+#newDesc {
+	font-size: 20px;
+}
+.newTwo {
+	background-color: #3864f5;
+	padding: 25px;
+	color: #fff;
+	max-width: 100%;
+	font-family: sans-serif;
+	margin: 10px;
+	transition-property: scale;
+	transition-duration: 0.5s;	
+}
+.newThree {
+	background-color: #3864f5;
+	padding: 25px;
+	max-width: 100%;
+	color: #fff;
+	font-family: sans-serif;
+	margin: 10px;
+	transition-property: scale;
+	transition-duration: 0.5s;
+}
+.newOne:hover {
+	scale: 1.025;
+	transition-property: scale;
+}
+.newTwo:hover {
+	scale: 1.025;
+	transition-property: scale;
+}
+.newThree:hover {
+	scale: 1.025;
+	transition-property: scale;
+}
+#listMenu a:hover {
+	color: #7571a6;
+	transition-property: color;
+}
+.donation {
+	background-color: #fff;
+	text-align: center;
+	padding: 75px;
+
+}
+#donName {
+	font-family: 'Staatliches', cursive;
+	font-size: 86px;
+	color: #3864f5;
+	margin-bottom: 20px;
+}
+#donSub {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #29264a;
+	margin-top: -1px;
+}
+#imageTable {
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+#donButton {
+	font-family: 'Staatliches', cursive;
+	font-size: 48px;
+	background-color: #3864f5;
+	color: #fff;
+	border-radius: 48px;
+	padding: 10px 25px;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+#donButton:hover {
+	background-color: #6286fc;
+}
+.contacts {
+	background-color: #3864f5;
+	text-align: center;
+	padding: 75px;
+
+}
+#conName {
+	font-family: 'Staatliches', cursive;
+	font-size: 86px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+#conSub {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #fff;
+	margin-top: -1px;
+}
+#linkButton {
+	font-family: sans-serif;
+	font-size: 48px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 125px;
+	border: 3px solid #fff;
+	padding: 25px 50px;
+	border-radius: 50px;
+	transition: all 0.5s;
+}
+#linkButton:hover {
+	color: #3864f5;
+	background-color: #fff;
+	transition: all 0.5s;
+}
+.ending {
+	background-color: #fff;
+	text-align: center;
+	padding: 25px;
+	font-family: sans-serif;
+	color: #29264a;
+}
+.newFlex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
